@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://kristjan123:kristjan123@decconnector-tpbhy.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://kristjan123:kristjan123@decconnector-tpbhy.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }
