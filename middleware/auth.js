@@ -1,7 +1,8 @@
 // Middleware is a function that has access to request and response object
 // When we send a request to protected route(@access - private), we need to send the token in the header
 
-// Use to check there is a TOKEN in the header and then validate it
+// Use to check there is a TOKEN in the header and then validate
+// Use to get ID(users id) from token and put it in the req.user
 
 const jwt = require('jsonwebtoken');
 const config = require('config');
