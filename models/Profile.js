@@ -21,11 +21,11 @@ const ProfileSchema = new mongoose.Schema({
     required: true
   },
   skills: {
-    type: String,
+    type: [String], // Array of strings
     required: true
   },
   bio: {
-    type: [String]
+    type: String
   },
   githubusername: {
     type: String
@@ -92,7 +92,7 @@ const ProfileSchema = new mongoose.Schema({
       }
     }
   ],
-  socila: {
+  social: {
     youtube: {
       type: String
     },
@@ -100,9 +100,6 @@ const ProfileSchema = new mongoose.Schema({
       type: String
     },
     facebook: {
-      type: String
-    },
-    youtube: {
       type: String
     },
     linkedin: {
